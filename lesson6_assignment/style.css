@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document created by Josh Petree, completed 03/21/19*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5em;
+	color: #999687;
+	background-color: #4ECBCC;
+	padding: 30px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+    letter-spacing: 0.1em;
+	color: #FFFBE5;
+}
+h1 {
+	font-size: 32px;
+	letter-spacing: .5em;
+	line-height: 2.5em;
+}
+h2 {
+	font-size: 24px;
+	padding: 5px;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	background-color: #BBECFF;
+}
+h3 {
+    font-size: 20px;
+    padding: 5px;
+    font-variant: small-caps;
+    letter-spacing: .5em;
+    background-color: #BBECFF;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #FFCF7B;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #FFCF7B;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFBE5;
+	text-decoration: underline;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	margin-left: 14px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+    border: solid #999687 2px;
+    background-color: #4ECBCC
+}
+.stats {
+	background-color: #BBECFF;
+	padding: 5px;
+	border: solid #999687 1px;
+}
+td {
+	padding: 5px;
+	border: solid #999687 1px;
+}
+th {
+    background-color: #BBECFF;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+	border: solid #999687 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #999687 2px;
+}
+
+img {
+	border: solid #999687 1px;
+
+}
+
+iframe {
+	border: solid #999687 5px;
+}
