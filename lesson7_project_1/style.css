@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/* CSS Document created by Josh Petree, completed 04/07/19*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5em;
+	color: #999687;
+	background-color: #999687;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+    letter-spacing: 0.1em;
+	color: #FFFBE5;
+	padding: 0 40px;
+}
+h1 {
+	font-size: 32px;
+	letter-spacing: .5em;
+	line-height: 2.5em;
+	padding: 0 40px;
+}
+h2 {
+	font-size: 24px;
+	padding: 0 40px;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	background-color: #BBECFF;
+}
+h3 {
+    font-size: 20px;
+    padding: 0 40px;
+    font-variant: small-caps;
+    letter-spacing: .5em;
+    background-color: #BBECFF;
+}
+
+/* link styles ---------------------------- */
+a {
+	padding-left: 10px;
+}
+a:link {
+	font-weight: bold;
+	color: #FFCF7B;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #FFCF7B;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFBE5;
+	text-decoration: underline;
+}
+
+/* list styles ----------------------------- */
+ul {
+	margin-left: 60px;
+}
+ul li {
+	padding-left: 0;
+}
+ol {
+	margin-left: 60px;
+}
+ol li {
+	padding-left: 0;
+}
+
+/* table styles -------------------------------------- */
+table {
+	margin-left: 10px;
+    border: solid #999687 2px;
+    background-color: #4ECBCC
+}
+.stats {
+	padding-left: 10px;
+	background-color: #BBECFF;
+	color: #999687;
+	padding: 5px;
+	border: solid #999687 1px;
+}
+td {
+	padding: 5px;
+	border: solid #999687 1px;
+}
+th {
+    background-color: #BBECFF;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+	border: solid #999687 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #999687 2px;
+}
+
+img {
+	border: solid #999687 1px;
+
+
+}
+
+iframe {
+	margin-left: 10px;
+	border: solid #999687 5px;
+}
+
+/* class and id selectors ------------------------------------- */
+.container {
+	width: 1100px;
+	margin: 0 auto;
+	/*border:1px solid #4ECBCC;*/
+	background-color: #4ECBCC;
+	overflow: hidden;
+}
+#header {
+	width: 100%;
+	padding-bottom: 40px;
+	background-color: #BBECFF;
+	border-bottom: 1px solid #999687;
+}
+#content {
+	width: 733.33px;
+	float: left;
+	padding-bottom: 40px;
+	margin: 0;
+}
+#contentimg {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#indexsidebar {
+	width: 366.67px;
+	margin-top: 60px;
+	float: left;
+}
+#indexsidebar p {
+	background-color: #BBECFF;
+	color: #999687;
+	border-radius: 6px;
+}
+#authorsidebar{
+	width: 346.67px;
+	margin-top: 90px;
+	margin-right: 20px;
+	float: left;
+}
+#authorsidebar p {
+	background-color: #BBECFF;
+	color: #999687;
+	border-radius: 6px;
+}
+#footer {
+	margin: 0;
+	clear: both;
+	width: 100%;
+	background-color: #BBECFF
+}
