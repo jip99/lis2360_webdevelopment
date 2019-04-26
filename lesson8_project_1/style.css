@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFBE5;
+	line-height: 1.5em;
+}
+
+#splash {
+    height: 1000px;
+    background: url(images/business-cabinet-data_proj2.jpg) no-repeat center top fixed;
+    background-size: cover;
+}
+#title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2em;
+    color: #FFFBE5;
+    padding-top: 250px;
+    padding-left: 410px;
+}
+#title h3 {
+    padding-left: 60px;
+}
+
+#overview {
+    background-color: #999687;
+    height: 1000px;
+    padding-top: 40px;
+    font-size: 1.5em;
+}
+
+#overview p {
+    padding: 10px;
+}
+
+#video {
+    height: 1000px;
+    background: url(images/vid_ss_proj2_blur.jpg) no-repeat center top fixed;
+    background-size: cover;
+    font-size: 1.3em;
+}
+
+#video h2 {
+    padding: 40px 0;
+    
+}
+
+#statistics {
+    background-color: #BBECFF;
+    color: #999687;
+    font-size: 1.3em;
+    height: 1000px;
+}
+
+ol li {
+    padding: 20px 0;
+}
+
+#contentimg {
+    padding-top: 50px;
+    margin-left: 32px;
+}
+
+#salary {
+    color: #FFFBE5;
+    margin-top: 80px;
+    margin-left: 20px;
+    padding: 0 10px;
+    line-height: 1.3em
+}
+
+th {
+    padding: 10px 10px;
+    border: solid #999687 1px;
+    background-color: #4ECBCC;
+}
+
+td {
+    border: solid #999687 1px;
+}
+.stats {
+    padding: 0 15px;
+    border: solid #999687 1px;
+    background-color: #4ECBCC;
+}
+
+.ref {
+    color: #FFCF7B;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#footer {
+    background-color: #4ECBCC;
+    color: #999687;
+    font-size: 1.5em;
+    height: 1000px;
+    padding-top: 40px;
+}
+
+#colors {
+    border: solid #999687 1px;
+}
+
+#license {
+    margin-top: 200px;
+}
+
+#license a {
+    color: #FFCF7B;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container {
+     width: 960px; /* static width container always stays at this width no matter what the window size */
+     margin: 0 auto;
+     overflow: hidden;
+}
+
+.half-container {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    padding-top: 40px;
+}
+
+/* ----------------- NAVIGATION BAR STYLES -------------------*/ 
+
+#navbar{
+	position: fixed; /* navbar should always be shown even when page is scrolled */
+	top: 0;
+	width: 100%;
+	height: 54px;
+	background-color: rgba(255, 255, 255, 0.8); 
+}	
+/* horizontal menu bars are typically created using a styled unordered list. Here's how! */
+ul#menu {
+	list-style: none; /* eliminates bullets */
+	/* adjust padding top to adjust nav bar vertical position */
+	padding-top: 0px;
+} 
+ul#menu li {
+	float: left; /* changes list from vertical to horizontal */
+	padding-bottom: 20px;
+} 
+ul#menu li a.button {
+	font-size: 16px;
+	text-decoration: none;
+	/* this padding defines the size of the buttons */
+	padding: 18px 110px; 
+}
+/* change button color when mouse hovers over */
+ul#menu li a.button:hover {
+	background-color: rgba(42, 188, 238, 0.1);
+}
