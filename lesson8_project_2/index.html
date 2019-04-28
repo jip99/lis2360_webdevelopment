@@ -1,0 +1,281 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/carousel/">
+
+
+    <title>Benefits of Database Use</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <style>
+      .navbar-inverse {
+          background-color: #4ECBCC;
+          border-color: #4ECAAA;
+      }
+      .navbar-inverse .navbar-nav>li>a {
+          color: #FFFBE5;
+      }
+      .navbar-inverse .navbar-brand {
+          color: #FFFBE5;
+      }
+      @media (min-width: 768px){
+        .navbar-wrapper .navbar {
+            padding-right: 0;
+            padding-left: 0;
+            border-radius: 30px;
+        }
+        .navbar-wrapper {
+            margin-top: 0;
+        }
+      }
+      .carousel-inner > .item > img {
+          height: auto;
+      }
+      @media (max-width: 899px) {
+        .carousel {
+            height: 400px;
+        }
+        .carousel .item {
+            height: 5400px;
+            background-color: #fff;
+        }
+      }
+      @media (max-width: 719px) {
+        .carousel-inner > .item > img {
+            width: 719px;
+            max-width: 719px;
+            height: 400px;
+        }
+      }
+      .btn-primary {
+          color: #FFFBE5;
+          background-color: #FFCF7B;
+          border-color: #FFCF7B;
+      }
+      .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+          background-color: #BBECFF;
+          color: #999687;
+      }
+    </style>
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Benefits of Database Use</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Stats</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Important Info <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Incentive</a></li>
+                    <li><a href="#">Salaries</a></li>
+                    <li><a href="#">Advantages</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="images/big1 blur.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Highlights</h1>
+              <p>Check out today's highlights below!</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">To highlights</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="images/big2 blur.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>A good incentive as to why you should consider working with databases</h1>
+              <p>Unsure whether working with databases will benefit you in the long run? It's time to reconsider with this big perk.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Check it out!</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="images/big3 blur.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Just some of the salaries from potential careers in databases</h1>
+              <p>Covering some popular jobs in the database field, learn how you can make a solid paycheck in a career in database work.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Let's go!</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="images/big4 blur.jpg" alt="Fourth slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>What have databases done for us?</h1>
+              <p>Good question! Check out our list on why databases are super beneficial in everyday life.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/small5.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Importance</h2>
+          <p>Without a sense of organization to keep things easily accessbile, things are bound to be lost and inaccessible, resulting in potential troubles and chaos. The concept 
+          of databases follows this same philosophy, where they are crucial in keeping everything they handle, from credit card accounts to
+          confidential government documents, in an organized, concise, and practical system to prevent these bad situations from occurring.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/small6.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Definition</h2>
+          <p>According to Techopedia, they define databases as being organized collections of data that allow data to be easily accessible, manipulated, and updated. Essentially, you can think of databases being like a <i>very</i> big virtual filing cabinet.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/small7.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Advantages</h2>
+          <p>So what is one of the biggest advantages of having these databases? It's hard to narrow it down to just one advantage, as it is
+                mutually agreed among many that their are several advantages, but one of the most prominent advantages that is always mentioned is
+                highlighted by RingLead.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Some incentive to work with databases. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">According to Glassdoor,
+                the average salary of a database administrator is around eighty thousand dollars, with the higher offers easily making six-figures.
+                With this in mind, businesses pay these consistent salaries to database workers since database management and maintenance is a highly
+                desired skillset for growing businesses wishing to optimize their use of databases.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="images/medium8.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">What type of pay can you expect to see? <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">A database analyst can earn an average of an average $67,000 a year, and database managers can make more at around
+          $74,000 a year. However, database administrators can make anywhere between $80,000 and $100,000 a year on average, depending on how
+          vital the position is.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="images/medium9.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">What are the biggest benefits of databases? <span class="text-muted">Let's check it out!</span></h2>
+          <p class="lead">The use of databases automatically improve data sharing and security and optimize data integration. Additionally,
+          it minimizes all data inconsistency and creates better access to data overall.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="images/medium10.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; Josh Petree &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>');</script>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    
+    <script src="js/holder.min.js"></script>
+    
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
